@@ -1,4 +1,7 @@
-# portfolio
+# Table of Content
+* General Info
+* Technologies
+* Sources
 # General Info
 This Project is My Portfolio 
 
