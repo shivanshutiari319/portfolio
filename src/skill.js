@@ -11,10 +11,7 @@ export const Skills = [
       id: 3,
       title: "React.js",
     },
-    {
-      id: 4,
-      title: "Nodejs",
-    },
+    
    
   ];
   
