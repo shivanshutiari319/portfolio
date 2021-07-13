@@ -27,23 +27,23 @@ export default function Portfolio() {
    <div className="portfolioo">
     
      <h1>Skills</h1>
-    <div className="containerr">
-     <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}>C++</Paper>
-        </Grid>
-        <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}>JavaScript</Paper>
-        </Grid>
-        <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper}>NodeJS</Paper>
-        </Grid>
-        <Grid item xs={6} sm={3}>
-          <Paper className={classes.paper} classname="edit">ReactJS</Paper>
-        </Grid>
-        </div>
+    
+       <ul>
+         <li className="active">C++</li>
+         <li className="active">C++</li>
+         <li className="active">JavaScript</li>
+         <li className="active">NodeJS</li>
+         <li className="active">ReactJS</li>
+         <li className="active">Express</li>
+         <li className="active">MongoDB</li>
+         <li className="active">JWT</li>
+         <li className="active">Material/UI</li>
+         <li className="active">CSS</li>
+         <li className="active">HTML</li>
+        
 
-
-
+       </ul>
+      
 
    </div>
  )

@@ -11,4 +11,4 @@ This Project is My Portfolio
 
 # Sources
 
-This project is inspired by youtube tutorial of Lama dev.Also I follow material/UI and React DOC.  
+This project is inspired by youtube tutorial of Lama dev.other than this I follow material/UI and React DOC.  

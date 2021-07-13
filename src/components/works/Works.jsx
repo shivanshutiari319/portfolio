@@ -7,30 +7,43 @@ export default function Works() {
     {
       id: "1",
       icon: "./assets/mobile.png",
-      title: "Web Design",
+      title: "LeetCode Profile",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ",
       img:
-        "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-    },
+        "https://cdn-images-1.medium.com/max/1600/0*GePc7lo4CF4A3guP.png",
+    link:"https://leetcode.com/ustad_319/",
+      },
     {
       id: "2",
       icon: "./assets/globe.png",
-      title: "Mobile Application",
+      title: "CodeForces Profile",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "https://i.pinimg.com/originals/e9/c9/2f/e9c92f7869d682a6fa5a97fb8a298f30.jpg",
-    },
+        "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Codeforces_logo.svg/1024px-Codeforces_logo.svg.png",
+       link:"https://codeforces.com/ ",
+      },
     {
       id: "3",
       icon: "./assets/writing.png",
-      title: "Branding",
+      title: "HackerRank Profile",
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "https://i.pinimg.com/originals/a9/f6/94/a9f69465d972a004ad581f245d6ad581.jpg",
-    },
+        "https://theindianwire.com/wp-content/uploads/2018/06/hackerrank-logo-1.jpg",
+    link:"https://www.hackerrank.com/shiva_ustad2",
+      },
+    {
+      id: "3",
+      icon: "./assets/writing.png",
+      title: "GFG Profile",
+      desc:
+        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      img:
+        "https://tse3.mm.bing.net/th?id=OIP.wv7KOJtvtw2IFgS8eo0D7wAAAA&pid=Api&P=0&w=300&h=300",
+      link:"https://auth.geeksforgeeks.org/user/ustad/profile",
+      },
   ];
 
   const handleClick = (way) => {
@@ -47,22 +60,15 @@ export default function Works() {
       >
         {data.map((d) => (
           <div className="container">
-            <div className="item">
-              <div className="left">
-                <div className="leftContainer">
-                  <div className="imgContainer">
-                    <img src={d.icon} alt="" />
-                  </div>
-                  <h2>{d.title}</h2>
-                  <p>{d.desc}</p>
-                  <span>Projects</span>
-                </div>
-              </div>
-              <div className="right">
+            <div className="">
+              
+              <div className="">
+              <a href={d.link} rel="noreferrer" target="_blank">
                 <img
-                  src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930"
+                  src={d.img}
                   alt=""
                 />
+                </a>
               </div>
             </div>
           </div>
