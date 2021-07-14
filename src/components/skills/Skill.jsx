@@ -18,7 +18,7 @@ const useStyles = makeStyles((theme) => ({
   paper: {
     padding: theme.spacing(2),
     textAlign: 'center',
-    color: theme.palette.text.primary,
+    // color: theme.palette.text.primary,
   },
 }));
 export default function Portfolio() {
@@ -30,7 +30,7 @@ export default function Portfolio() {
     
        <ul>
          <li className="active">C++</li>
-         <li className="active">C++</li>
+        
          <li className="active">JavaScript</li>
          <li className="active">NodeJS</li>
          <li className="active">ReactJS</li>

@@ -15,25 +15,13 @@ export default function Portfolio() {
       id: "featured",
       title: "Featured",
     },
-    
-    
   ];
-
-  useEffect(() => {
+ useEffect(() => {
     switch (selected) {
       case "web":
         setData(featuredPortfolio);
         break;
       
-      // case "mobile":
-      //   setData(mobilePortfolio);
-      //   break;
-      // case "design":
-      //   setData(designPortfolio);
-      //   break;
-      // case "content":
-      //   setData(contentPortfolio);
-      //   break;
       default:
         setData(featuredPortfolio);
     }

@@ -31,7 +31,7 @@ export default function Works() {
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "https://theindianwire.com/wp-content/uploads/2018/06/hackerrank-logo-1.jpg",
+        "http://www.yosuccess.com/wp-content/uploads/2015/01/HackerRank2.png",
     link:"https://www.hackerrank.com/shiva_ustad2",
       },
     {
@@ -41,7 +41,7 @@ export default function Works() {
       desc:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       img:
-        "https://tse3.mm.bing.net/th?id=OIP.wv7KOJtvtw2IFgS8eo0D7wAAAA&pid=Api&P=0&w=300&h=300",
+        "https://cdncontribute.geeksforgeeks.org/wp-content/uploads/geeksforgeeks-6.png",
       link:"https://auth.geeksforgeeks.org/user/ustad/profile",
       },
   ];
@@ -53,13 +53,18 @@ export default function Works() {
   };
   
   return (
+    
     <div className="works" id="works">
+      
       <div
         className="slider"
         style={{ transform: `translateX(-${currentSlide * 100}vw)` }}
       >
+         
         {data.map((d) => (
+       
           <div className="container">
+           
             <div className="">
               
               <div className="">
