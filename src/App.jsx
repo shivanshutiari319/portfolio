@@ -20,8 +20,7 @@ function App() {
        <Skills/>
        <Portfolio/>
        <Works/>
-       <Testimonials/>
-       <Contact/>
+       
      </div>
     </div>
   );

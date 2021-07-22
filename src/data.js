@@ -3,21 +3,21 @@ export const featuredPortfolio = [
       id: 1,
       title: "Login page",
       img:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        "https://ps.w.org/loginpress/assets/screenshot-10.png?rev=1587050",
         link:"https://github.com/shivanshutiari319/MERN-login-Page",
     },
     {
       id: 2,
       title: "Task-Manager App",
       img:
-        "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.winudf.com%2Fv2%2Fimage1%2FbW9iaS5pbmZvbGlmZS50YXNrbWFuYWdlcl9zY3JlZW5fMTVfMTU1MjIyMTI5N18wMTI%2Fscreen-15.jpg%3Ffakeurl%3D1%26type%3D.jpg&f=1&nofb=1",
         link:"https://github.com/shivanshutiari319/task-manager",
     },
     {
       id: 3,
       title: "Weather report App",
       img:
-        "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        "http://windowsbulletin.com/wp-content/uploads/2021/07/Weather-App-Win10-image.jpg",
         link:"https://github.com/shivanshutiari319/weather-report-using-API",
     },
   ];
